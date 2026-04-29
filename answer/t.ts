@@ -9,7 +9,7 @@ export type Coordinate = {
 
 export const moveX10 = (coord: Coordinate): Coordinate => {
   return {
-    ...coord,     // 기존 y값 등을 유지하기 위해 전개 연산자 사용
+    ...coord,
     x: coord.x + 10
   };
 };

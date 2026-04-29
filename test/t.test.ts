@@ -1,5 +1,5 @@
 // moveX10.test.ts
-import { type Coordinate, moveX10 } from '../answer/4.js';
+import { type Coordinate, moveX10 } from '../answer/t.js';
 
 describe('moveX10 함수 테스트', () => {
   
