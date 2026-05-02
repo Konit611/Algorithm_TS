@@ -9,6 +9,10 @@ function shuffle(nums: number[], n: number): number[] {
     return answer;
 };
 
+function shuffleUsingMap(nums: number[], n: number): number[] {
+    return nums.map((_, i) => (i % 2 === 0 ? nums[i / 2]! : nums[n + (i - 1) / 2]!));
+}
+
 const nums = [1,2,3,4,4,3,2,1];
 const n = 4;
 
