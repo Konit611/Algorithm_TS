@@ -41,3 +41,7 @@ let nums_2 = [2,2];
 console.log(findErrorNums(nums));
 console.log(findErrorNums(nums_1));
 console.log(findErrorNums(nums_2));
+
+console.log(findErrorNumsBetter(nums));
+console.log(findErrorNumsBetter(nums_1));
+console.log(findErrorNumsBetter(nums_2));
